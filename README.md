@@ -18,12 +18,13 @@ Caută Cod Poștal is a Chrome extension that allows users to search for postal 
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/baad777/cauta-cod-postal.git
-   ```
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable "Developer mode" in the top right corner.
+1. Download the latest release from [GitHub Releases](https://github.com/baad777/cauta-cod-postal-chrome/releases).
+2. Open the zipped file and extract it.
+3. Open Chrome and navigate to `chrome://extensions/`.
+4. Enable "Developer mode" in the top right corner.
+5. Click on "Load unpacked" and select the extracted folder.
+6. The extension should now be installed and visible in your extensions list.
+7. Enjoy!
 
 ## Usage
 

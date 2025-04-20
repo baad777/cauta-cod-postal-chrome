@@ -6,7 +6,7 @@ chrome.runtime.onInstalled.addListener(() => {
     });
 });
 
-chrome.contextMenus.onClicked.addListener((info, tab) => {
+chrome.contextMenus.onClicked.addListener((info) => {
     if (info.menuItemId === "searchPostalCode" && info.selectionText) {
         const query = encodeURIComponent(info.selectionText.trim());
         chrome.system.display.getInfo((displays) => {

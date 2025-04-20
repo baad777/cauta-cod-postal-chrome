@@ -4,9 +4,10 @@ $(document).ready(function () {
     let filters = {};
     let sortColumn = "";
     let sortAsc = true;
+    let queryInput = $("#query-input");
 
     $("#query").text(query);
-    $("#query-input").val(query);
+    queryInput.val(query);
     $("#loading").show();
 
     function fetchResults() {
@@ -70,7 +71,7 @@ $(document).ready(function () {
         renderTable();
     });
 
-    $("#query-input").on("keypress", function (e) {
+    queryInput.on("keypress", function (e) {
         if (e.key === "Enter") {
             $("#search-button").click();
         }

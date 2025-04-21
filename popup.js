@@ -42,12 +42,12 @@ $(document).ready(function () {
 
         const rows = filteredResults.map(result => `
             <tr>
-                <td>${result.county}</td>
-                <td>${result.city}</td>
-                <td>${result.street_type}</td>
-                <td>${result.street_name}</td>
-                <td>${result.street_number}</td>
-                <td>${result.postcode}</td>
+                <td>${result.county || ""}</td>
+                <td>${result.city || ""}</td>
+                <td>${result.street_type || ""}</td>
+                <td>${result.street_name || ""}</td>
+                <td>${result.street_number || ""}</td>
+                <td>${result.postcode || ""}</td>
             </tr>
         `).join("");
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Caută Cod Poștal",
-  "description": "O extensie Chrome pentru căutarea codurilor poștale direct din meniul contextual sau fereastra popup. Extensia integreaza oapi.ro.",
+  "name": "Cauta Cod Postal Romania (Coduri Postale)",
+  "description": "O extensie Chrome pentru cautarea codurilor poștale direct din meniul contextual sau fereastra popup. Extensia integreaza oapi.ro.",
   "version": "1.0",
   "permissions": [
     "contextMenus",
